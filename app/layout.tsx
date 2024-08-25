@@ -67,7 +67,7 @@ export default function RootLayout({
             </main>
             <div className="flex justify-center items-center fixed  w-full h-11 bottom-0 bg-zinc-900">
               <Bottombar categories={categories} />
-            </div>
+            </div>*
         </body>  
       </html>
   );

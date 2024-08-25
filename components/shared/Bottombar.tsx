@@ -15,10 +15,12 @@ interface BottombarProps{
 export default function Bottombar({categories}:BottombarProps){
     return (
     
-    <main className="flex flex-row gap-4" >
+    <main className="flex flex-row gap-4 text-xs" >
+      <i>Dragon technologies and software solutions Inc.</i>
+      {/*
         {categories.map((category, index)=> (
-            <Link className="text-white px-4 py-2 cursor-pointer transition-transform transform hover:scale-110" key={index} /*href={category.link}*/ href={"/"}>
-                    <Image
+            <Link className="text-white px-4 py-2 cursor-pointer transition-transform transform hover:scale-110" key={index} /*href={category.link}*/ /*href={"/"}>
+         {/*           <Image
                       src={`/google-icons/${category.picturePath}`}
                       alt="logout"
                       width={27}
@@ -29,8 +31,8 @@ export default function Bottombar({categories}:BottombarProps){
                     />
             </Link>
         ))}
-        <Link className="text-white px-4 py-2 cursor-pointer transition-transform transform hover:scale-110" /*href={category.link}*/ href={"/"}>
-                <Image
+        <Link className="text-white px-4 py-2 cursor-pointer transition-transform transform hover:scale-110" /*href={category.link}*/ /*href={"/"}>
+               <Image
                   src={`/google-icons/add.svg`}
                   alt="logout"
                   width={27}
@@ -39,7 +41,7 @@ export default function Bottombar({categories}:BottombarProps){
                     filter: 'invert(100%)',
                   }}
                 />
-        </Link>
+        </Link>*/}
     </main>
     
     )

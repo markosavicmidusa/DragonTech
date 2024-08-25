@@ -73,13 +73,13 @@ export default function MainContent() {
       {/* Block 5: Random Quizes */}
       <div className="flex flex-col flex-wrap items-center w-full p-5 shadow-md hover:shadow-lg rounded-lg">
       <h3 className="text-xl font-bold mb-4">MEET US</h3>
-          <div className="mb-3 bg-zinc-900 rounded-md p-5">
+          <div className="bg-zinc-900 rounded-md p-5 w-full items-center flex flex-col p-10">
           
-          <p>EMAIL:</p>
-          <p className="text-xl font-bold mb-4">dragon.vr.tech@gmail.com</p>
-          <p>ADDRESS:</p>
-          <p className="text-xl font-bold mb-4">Belgrade, Serbia</p>
-          <h3 className="text-md font-bold mb-2 mt-10">SEE YOU !</h3>
+            <p>EMAIL:</p>
+            <p className="text-xl font-bold mb-4">dragon.vr.tech@gmail.com</p>
+            <p>ADDRESS:</p>
+            <p className="text-xl font-bold mb-4">Belgrade, Serbia</p>
+            <h3 className="text-md font-bold mb-2 mt-10">SEE YOU !</h3>
           
           </div>
           
