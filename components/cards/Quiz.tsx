@@ -1,4 +1,4 @@
-import { IQuizMetadata } from "@/lib/models/quiz_metadata.model"
+
 import Image from "next/image"
 import Link from "next/link"
 

@@ -1,14 +1,13 @@
 "use client"
 
-import { UserButton } from "@clerk/nextjs";
+
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { getCommercials } from "@/data/controller";
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
-import { Model, Document } from "mongoose";
 
-import QuizMetadataModel, { IQuizMetadata } from "@/lib/models/quiz_metadata.model";
+
 import RandomPicturesBlock from "../forms/RandomPicturesBlock";
 import RecentlyAdded from "../forms/RecentlyAdded";
 import MostClicked from "../forms/MostClicked";

@@ -1,8 +1,7 @@
 "use client"
 
 import { useEffect, useState } from 'react';
-import { getMostClicked50Quizes } from '@/lib/actions/quiz.actions';
-import { IQuizMetadata } from '@/lib/models/quiz_metadata.model';
+
 import Quiz from '../cards/Quiz';
 import { rosenImages } from '@/data/rosenApotheke/rosenApotheke';
 import { getRosenImages } from '@/data/controller';
