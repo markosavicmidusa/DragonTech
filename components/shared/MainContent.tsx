@@ -25,7 +25,22 @@ export default function MainContent() {
          <h3 className="text-xl font-bold mb-4 ">TRANSFORM YOUR REALITY</h3>
          <RandomPicturesBlock />
       </div>
-
+      
+      {/* Block 3: VIDEO tour block */}
+      <div className="flex flex-col flex-wrap items-center w-full p-5 mt-10 shadow-md hover:shadow-lg rounded-lg">
+              <h3 className="text-xl font-bold mb-4">TAKE A TOUR THROUGH ROSEN PHARMACY - VIDEO</h3>
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe 
+                  className="absolute top-0 left-0 w-full h-full" 
+                  src="https://www.youtube.com/embed/exoBUB9TcdY" 
+                  title="YouTube video player" 
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowFullScreen>
+                </iframe>
+              </div>
+            </div>
+      
       {/* Block 2: VR PROJECTS block */}
       <div className="flex flex-col flex-wrap items-center w-full p-5 mt-10 shadow-md hover:shadow-lg rounded-lg ">
           <Link href="https://rosenapo-online.de/" className="flex flex-col items-center ">
@@ -36,20 +51,7 @@ export default function MainContent() {
           </Link>
       </div>
 
-      {/* Block 3: VIDEO tour block */}
-      <div className="flex flex-col flex-wrap items-center w-full p-5 mt-10 shadow-md hover:shadow-lg rounded-lg">
-        <h3 className="text-xl font-bold mb-4">TAKE A TOUR THROUGH ROSEN PHARMACY - VIDEO</h3>
-        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-          <iframe 
-            className="absolute top-0 left-0 w-full h-full" 
-            src="https://www.youtube.com/embed/exoBUB9TcdY" 
-            title="YouTube video player" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowFullScreen>
-          </iframe>
-        </div>
-      </div>
+      
 
       {/* Block 4.1: Software Development */}         
       <div className="flex flex-col flex-wrap items-center w-full p-5 mt-10 shadow-md hover:shadow-lg rounded-lg sm:p-3 sm:mt-6 md:p-4 md:mt-8">
